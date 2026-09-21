@@ -1,0 +1,159 @@
+/* College Department Website */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+/* Header */
+
+header {
+    background-color: #1e3a5f;
+    color: white;
+    text-align: center;
+    padding: 35px;
+}
+
+header h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Navigation */
+
+nav {
+    background-color: #152b44;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 0 20px;
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
+/* Main Section */
+
+section {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+section h2 {
+    text-align: center;
+    color: #1e3a5f;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+/* Faculty Cards */
+
+.faculty {
+    background-color: white;
+    margin: 25px 0;
+    padding: 25px;
+    border-radius: 10px;
+    border-left: 6px solid #1e3a5f;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.faculty h3 {
+    color: #1e3a5f;
+    font-size: 23px;
+    margin-bottom: 12px;
+}
+
+.faculty p {
+    font-size: 17px;
+    margin: 7px 0;
+}
+
+/* Footer */
+
+footer {
+    background-color: #152b44;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 15px;
+}
+
+/* Responsive Design */
+
+@media screen and (max-width: 768px) {
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    header p {
+        font-size: 16px;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    section {
+        margin: 20px;
+        padding: 10px;
+    }
+
+    section h2 {
+        font-size: 25px;
+    }
+
+    .faculty {
+        padding: 20px;
+    }
+}
+
+/* Mobile View */
+
+@media screen and (max-width: 480px) {
+
+    header {
+        padding: 25px 10px;
+    }
+
+    header h1 {
+        font-size: 23px;
+    }
+
+    header p {
+        font-size: 14px;
+    }
+
+    .faculty h3 {
+        font-size: 20px;
+    }
+
+    .faculty p {
+        font-size: 15px;
+    }
+}
